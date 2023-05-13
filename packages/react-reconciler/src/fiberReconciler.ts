@@ -17,7 +17,7 @@ export function createContainer(container: Container) {
 	return root;
 }
 
-// reactDom.createRoot(root).render(<App/>)
+// reactDOM.createRoot(root).render(<App/>)
 
 export function updateContainer(
 	element: ReactElementType | null,
