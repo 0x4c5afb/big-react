@@ -1,10 +1,13 @@
-import React from 'react'
+import { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 
 function App() {
+  const [num, setNum] = useState(100);
+  window.setNum = setNum;
   return (
     <div>
-      <span>big-react</span>
+      {/* <span>big-react</span> */}
+      {num}
     </div>
   );
 }
